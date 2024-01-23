@@ -25,7 +25,7 @@ function killTimeline($el) {
 }
 
 function SectionTop__init() {
-  var wrapMarginRight = 100;
+  var wrapMarginRight = 0;
   var $contentLi = $(".section-top__content > li");
   var $bgLi = $(".section-top__bg > li");
   var $bgLiChild = $bgLi.find(" > div");

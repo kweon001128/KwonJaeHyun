@@ -40,7 +40,7 @@ body, ul, li {
   
   /* .section-top 시작 */
   .section-top__wrap {
-    margin-right:100px;
+    margin-right:0;
   }
   
   .section-top__content > li {
