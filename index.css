@@ -49,7 +49,7 @@ html {
   font-family: "roobert";
   font-weight: 300;
   font-style: sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color:#525CEB;
   letter-spacing:-3px;
   margin-bottom:-1px;
@@ -69,7 +69,6 @@ display:inline-block;
 
 .line-4 {
   text-align:center;
-  margin-top:250px;
 }
 
 /*페이지 1*/
