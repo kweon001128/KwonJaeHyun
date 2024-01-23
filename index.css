@@ -49,7 +49,7 @@ html {
   font-family: "roobert";
   font-weight: 300;
   font-style: sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   color:#525CEB;
   letter-spacing:-3px;
   margin-bottom:-1px;
@@ -64,7 +64,7 @@ display:inline-block;
 }
 
 .line-4 > * {
-  font-size:3rem;
+  font-size:2rem;
 }
 
 .line-4 {
