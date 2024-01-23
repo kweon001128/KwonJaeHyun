@@ -53,7 +53,6 @@ gsap.from(".page-1", {
     trigger: ".page-1",
     pin: true,
     pinSpacing: false,
-    markers: true,
     start: "top top"
   }
 });
@@ -63,7 +62,6 @@ gsap.from(".page-2", {
     trigger: ".page-2",
     pin: true,
     pinSpacing: false,
-    markers: true,
     start: "top top"
   }
 });
