@@ -1,25 +1,3 @@
-
-
-
-/*기본*/
-body,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-body {
-  background-color:black;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/*폰트*/
 @font-face {
   font-family: roobert;
   src: url(https://static1.squarespace.com/static/61805088a13441018ea5ff98/t/6290c9c83b09d5791eaabc09/1653656008106/Roobert-Regular.otf);
@@ -28,83 +6,126 @@ a {
 html {
   font-family: roobert;
 }
-/*폰트*/
 
-/*기본*/
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-/*일괄 적용*/
+a {
+  text-decoration: none;
+  color: inherit;
+  display:inline-block;
+}
+
+body {
+  background-color:black;
+}
+
+.con-min-width {
+  min-width:1200px;
+}
+
+.con {
+  width:100%;
+}
 
 .page {
-  height: calc(100vh - 50px);
-  background-color: #F8EDFF;
-  border-radius: 6% / 6% ;
-  padding-top:50px;
-  padding-left:40px;
+  height:calc( 100vh - 5vh);
+  border-radius: 5vh ;
+  background-color:white;
+  padding-top:5vh;
 }
-/*일괄 적용*/
 
-/*페이지 커스텀*/
-/*페이지 1*/
-.page-1 > .line {
-  font-family: "roobert";
-  font-weight: 300;
-  font-style: sans-serif;
-  font-size: 4rem;
-  color:#525CEB;
-  letter-spacing:-3px;
-  margin-bottom:-1px;
+.line {
+  margin-left:6vh;
 }
+
+/* 페이지 1 시작 */
 
 .page-1 > .line > * { 
 display:inline-block;
 }
 
-.page-1 {
-  z-index:-1;
+.page-1 > .line > header {
+  font-size:8vh;
+  font-weight:bold;
+}
+
+.page-1 > .line-1 {
+  letter-spacing:-3px;
+}
+
+.page-1 > .line-1 > .line1__header-1,
+.page-1 > .line-1 > .line1__header-2{
+  letter-spacing:0;
+}
+
+.page-1 > .line-3 {
+  letter-spacing:-4px;
+}
+
+.page-1 > .line-3 > .line3__header-2 {
+  letter-spacing:0;
 }
 
 .line-4 {
-  margin-top:20vh;
+  background-color:red;
+  position:absolute;
+  height:6vh;
+  bottom:10vh;
+  left:0;
+  right:5vw;
 }
 
-.line-4 > * {
-  font-size:4rem;
+.page1__btn-box-1 {
+  position:absolute;
+  background-color:yellow;
+  height:6vh;
+  width:8vh;
 }
 
-body {
-  text-align: center;
+.page1__btn-box-1 > i {
+  top:50%;
+  left:50%;
+  transform:translatex(-50%) translatey(-50%);
+  font-size:6vh;
+  position:absolute;
 }
 
+.line-4 > span:nth-child(2) {
+  font-size:6vh;
+  position:absolute;
+  height:100%;
+  left:8vh;
+  background-color:blue;
+}
 
-/*페이지 1*/
+.line-4 > span:nth-child(3){
+  font-size:3vh;
+  position:absolute;
+  height:50%;
+  right:0;
+  background-color:yellow;
+}
 
-/*페이지 2*/
+.line-4 > span:nth-child(4){
+  font-size:3vh;
+  position:absolute;
+  height:50%;
+  top:50%;
+  right:0;
+  background-color:yellow;
+}
+
+/* 페이지 1 끝 페이지 2 시작*/
+
 .page-2 {
-  z-index:2;
+  background-color:#FF7F86;
+  font-size:8vh;
+  color:white;
+  font-weight:bold;
 }
-
-.page-2 {
-  background-color:#FDFFAB;
-}
-
-h1 {
-  position: absolute;
-  margin-top: 30vh;
-  width: 100%;
-  font-size: 6rem;
-  text-align: center;;
-  font-family: sans-serif;
-  color: #FFB996;
-}
-
-canvas {
-  overflow-y: hidden;
-  overflow-x: hidden;
-  width: 100%;
-  margin: 0;
-}
-
-
-/*페이지 2*/
-/*페이지 커스텀*/
-
