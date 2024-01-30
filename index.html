@@ -22,91 +22,127 @@
 </head>
 <body>
 
+
+
+  <div class="cursor"></div>
+  <div class="cursor-shadow"></div>
   
-
-<div class="cursor"></div>
-<div class="cursor-shadow"></div>
-
-<div class="con-min-width">
-  <div class="con">
-
-    <div class="page page-1 f-p-g">
-      <div class="line line-1">
-        <header class="line1__header-1 tl1">Scratch Pad</header>
-        <header class="empty">&nbsp</header>
-        <header class="line1__header-2 tl2">For</header>
+  <div class="con-min-width">
+    <div class="con">
+  
+      <div class="page page-1 f-p-g">
+        <div class="line line-1">
+          <header class="line1__header-1 tl1">Scratch Pad</header>
+          <header class="empty">&nbsp</header>
+          <header class="line1__header-2 tl2">For</header>
+        </div>
+        <div class="line line-2">
+          <header class="line2__header-1 tl3">Web Programing</header>
+        </div>
+        <div class="line line-3">
+          <header class="line3__header-1 tl4">&</header>
+          <header>&nbsp</header>
+          <header class="line3__header-2 tl5">Design</header>
+        </div>
+        <div class="line line-4">
+          <span class="page1__btn-box-1">
+            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+          </span>
+          <span>
+            <div class="page1__tb1">Scribbled by </div>
+            <div class="page1__tb2">Kwon Jae Hyun</div>
+          </span>
+          <span>
+            <i class="fa-brands fa-instagram"></i>
+            <div class="itb">asdfasdfasdf@asdf.com</div>
+          </span>
+          <span>
+            <i class="fa-regular fa-envelope"></i>
+            <div class="itb">www.qwerqwerqwerqwer.com</div>
+          </span>
+        </div>
       </div>
-      <div class="line line-2">
-        <header class="line2__header-1 tl3">Web Programing</header>
+  
+      <div class="page page-2 c-p-g">
+        <div class="line line-1">
+          <header class="line1__header-1">Create Your Own Mouse Cursor</header>
+        </div>
+        <div class="line line-2">
+          <header class="line2__header-1">$(window).mousemove(function(e){<br>
+            $('.cursor').css('left', e.clientX);
+            $('.cursor').css('top', e.clientY); });<br><br>position: fixed;<br>transform: translatex(-50%), translatey(-50%);<br><br>$(".page-2 > .line-2").mouseenter(function() {
+            $(window).mousemove(function(e)<br>{
+            $(".cursor").css("left", e.clientX - ( a * 60 ) / 200 );<br>
+            $(".cursor").css("top", e.clientY - ( a * 60 ) / 200 );<br>
+            $(".cursor-shadow").css("left", e.clientX - ( a * 65.5 ) / 200 );<br>
+            $(".cursor-shadow").css("top", e.clientY - ( a * 65.5 ) / 200 );
+            });</header>
+        </div>
+        <div class="line line-3">
+          <span class="page2__btn-box-1">
+            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+          </span>
+        </div>
       </div>
-      <div class="line line-3">
-        <header class="line3__header-1 tl4">&</header>
-        <header>&nbsp</header>
-        <header class="line3__header-2 tl5">Design</header>
+  
+      <div class="page page-3 c-p-g">
+        <div class="line line-1 ab">
+          <header class="line1__header-1 ab">
+            <div class="cdb ab">
+              <span class="ftb ab">yellow button</span>
+              <span class="ybb ab">
+                <span class="yellow ab"></span>
+                <span class="black ab"></span>
+              </span>
+              <span class="ltb ab">black button</span>
+              <span class="bb ab"></span>
+            </div>
+          </header>
+        </div>
+  
+        <div class="line line-2 ab">
+          <header class="line2__header-1 ab">
+            <div class="cdb ab">
+              <span class="ftb ab">yellow</span>
+              <span class="ybb ab">
+                <span class="yellow ab"></span>
+                <span class="black ab"></span>
+              </span>
+              <span class="ltb ab">black</span>
+              <span class="bb ab"></span>
+            </div>
+          </header>
+        </div>
+  
+        <div class="line line-2-3 ab">
+          <header class="line2__header-1 ab">
+            <div class="cdb ab">
+              <span class="ftb ab">button</span>
+              <span class="ybb ab">
+                <span class="yellow ab"></span>
+                <span class="black ab"></span>
+              </span>
+              <span class="ltb ab">button</span>
+              <span class="bb ab"></span>
+            </div>
+          </header>
+        </div>
+  
+        <div class="line line-3">
+          <span class="page3__btn-box-1">
+            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+          </span>
+        </div>
       </div>
-      <div class="line line-4">
-        <span class="page1__btn-box-1">
-          <i class="fa-sharp fa-solid fa-chevron-down"></i>
-        </span>
-        <span>
-          <div class="page1__tb1">Scribbled by </div>
-          <div class="page1__tb2">Kwon Jae Hyun</div>
-        </span>
-        <span>
-          <i class="fa-brands fa-instagram"></i>
-          <div class="itb">asdfasdfasdf@asdf.com</div>
-        </span>
-        <span>
-          <i class="fa-regular fa-envelope"></i>
-          <div class="itb">www.qwerqwerqwerqwer.com</div>
-        </span>
+  
+      <div class="page page-4 c-p-g">
+        <div class="line line-1">
+          <header class="line1__header-1"></header>
+        </div>
       </div>
+  
     </div>
-
-    <div class="page page-2 c-p-g">
-      <div class="line line-1">
-        <header class="line1__header-1">Create Your Own Mouse Cursor</header>
-      </div>
-      <div class="line line-2">
-        <header class="line2__header-1">$(window).mousemove(function(e){<br>
-        $('.cursor').css('left', e.clientX);
-        $('.cursor').css('top', e.clientY); });<br><br>position: fixed;<br>transform: translatex(-50%), translatey(-50%);<br><br>$(".page-2 > .line-2").mouseenter(function() {
-  $(window).mousemove(function(e)<br>{
-    $(".cursor").css("left", e.clientX - ( a * 60 ) / 200 );<br>
-    $(".cursor").css("top", e.clientY - ( a * 60 ) / 200 );<br>
-    $(".cursor-shadow").css("left", e.clientX - ( a * 65.5 ) / 200 );<br>
-    $(".cursor-shadow").css("top", e.clientY - ( a * 65.5 ) / 200 );
-  });</header>
-      </div>
-      <div class="line line-3">
-        <span class="page2__btn-box-1">
-          <i class="fa-sharp fa-solid fa-chevron-down"></i>
-        </span>
-      </div>
-    </div>
-
-    <div class="page page-3 c-p-g">
-      <div class="line line-1">
-        <header class="line1__header-1"></header>
-      </div>
-      <div class="line line-2">
-        <header class="line2__header-1"></header>
-      </div>
-      <div class="line line-3">
-        <span class="page3__btn-box-1">
-          <i class="fa-sharp fa-solid fa-chevron-down"></i>
-        </span>
-      </div>
-    </div>
-    
-    <div class="page page-4 c-p-g">
-      <div class="line line-1">
-        <header class="line1__header-1"></header>
-      </div>
-    </div>
-    
   </div>
-</div>
 
 
   
